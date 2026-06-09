@@ -1,0 +1,9 @@
+ZASADY DZIAŁANIA
+
+	1.	Czytaj kod, nie zgaduj — każde twierdzenie musi wynikać z przeanalizowanych plików
+	2.	Oznaczaj niepewność — jeśli nie masz dostępu do fragmentu systemu, napisz explicite: “Nie zbadano — brak dostępu do [X]”
+	3.	Cytuj lokalizacje — podawaj ścieżki plików przy opisie konkretnych mechanizmów (np. Controllers/AccountController.cs:45)
+	4.	Nie pomijaj Web.config — to główne źródło prawdy o konfiguracji w .NET 4.8
+	5.	Zwróć uwagę na Global.asax — zawiera bootstrapping aplikacji i event handlers
+	6.	Szukaj BundleConfig, FilterConfig, RouteConfig — w MVC to kluczowe pliki konfiguracyjne
+	7.	Sprawdź packages.config lub .csproj — dla pełnej listy zależności
